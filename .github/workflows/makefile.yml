@@ -28,6 +28,8 @@ jobs:
 
     - name: Run lint
       run: make lint
+      working-directory: virtualenv/Scripts/
 
     - name: Run test
       run: make test
+      working-directory: virtualenv/Scripts/

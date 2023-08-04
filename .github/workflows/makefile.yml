@@ -24,12 +24,12 @@ jobs:
 
     - name: Install dependencies
       run: make install
-      working-directory: GitHub/MLOps
+     
 
     - name: Run lint
       run: make lint
-      working-directory: GitHub/MLOps
+    
 
     - name: Run test
       run: make test
-      working-directory: GitHub/MLOps
+     
